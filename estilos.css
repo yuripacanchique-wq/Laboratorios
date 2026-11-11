@@ -381,6 +381,9 @@ hr.linea-azul {
   font-size: 1rem;
 }
 
+ul{
+    list-style-type: none;
+}
 
 nav ul {
   list-style: none;
