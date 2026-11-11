@@ -417,9 +417,11 @@ nav ul li a:focus {
 
 
 .imagen {
+  box-shadow:8px 10px 12px #D6A52B;
   margin: 16px auto 24px;
   text-align: center;
-}
+  border-radius: 20px;
+} 
 
 .imagen img,
 .centrado img,
@@ -427,8 +429,6 @@ nav ul li a:focus {
   width: 250px;
   height: 250px;
   object-fit: cover;
-  box-shadow: 8px 10px 12px #D6A52B;
-  border-radius: 20px;
 }
 
 .imagen img,
