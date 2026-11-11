@@ -7,7 +7,30 @@ body {
     line-height: 1.6;
 }
 
+/* INICIO APARTADO ELECTRICAS */
+    /* Acordeones dentro de otro acordeón */
+    .acordeon .acordeon {
+      margin: 8px 16px 12px;
+      background: #f4f6f8;
+    }
 
+    .acordeon .acordeon summary h3 {
+      font-size: 1rem;
+    }
+
+    /* Fotos dentro de los acordeones: centradas, tamaño moderado y con borde */
+    .foto-acordeon {
+      display: block;
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      margin: 12px auto;
+      padding: 4px;
+      border: 3px solid #12355b;
+      border-radius: 8px;
+      background: #fff;
+    }
+/* FIN APARTADO ELECTRICAS */
 
 .div_ppal {
     width: 55%;
