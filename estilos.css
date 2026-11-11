@@ -7,61 +7,6 @@ body {
     line-height: 1.6;
 }
 
-/* INICIO APARTADO METALMECANICA*/
-    /* Dos imágenes una al lado de la otra */
-    .imagen.doble {
-      max-width: 640px;
-    }
-
-    .imagen.doble .contenedor-imagen {
-      display: flex !important;
-      flex-direction: row !important;
-      gap: 8px;
-    }
-
-    .imagen.doble .contenedor-imagen img {
-      flex: 1 1 0;
-      min-width: 0;
-      width: 50% !important;
-      height: auto;
-    }
-
-    /* En celular se apilan */
-    @media (max-width: 480px) {
-      .imagen.doble .contenedor-imagen {
-        flex-direction: column !important;
-      }
-      .imagen.doble .contenedor-imagen img {
-        width: 100% !important;
-      }
-    }
-/* FIN APARTADO METALMECANICA*/
-
-/* INICIO APARTADO ELECTRICAS */
-    /* Acordeones dentro de otro acordeón */
-    .acordeon .acordeon {
-      margin: 8px 16px 12px;
-      background: #f4f6f8;
-    }
-
-    .acordeon .acordeon summary h3 {
-      font-size: 1rem;
-    }
-
-    /* Fotos dentro de los acordeones: centradas, tamaño moderado y con borde */
-    .foto-acordeon {
-      display: block;
-      width: 100%;
-      max-width: 300px;
-      height: auto;
-      margin: 12px auto;
-      padding: 4px;
-      border: 3px solid #12355b;
-      border-radius: 8px;
-      background: #fff;
-    }
-/* FIN APARTADO ELECTRICAS */
-
 .div_ppal {
     width: 55%;
     margin: 20px auto;
@@ -110,11 +55,6 @@ body {
     border-radius:10px;
 
 }
-
-
-
-
-
 
 .lema {
     background-color: #30335B;
@@ -382,7 +322,7 @@ hr.linea-azul {
 }
 
 ul{
-    list-style-type: none;
+  list-style-type: none;
 }
 
 nav ul {
@@ -417,11 +357,9 @@ nav ul li a:focus {
 
 
 .imagen {
-  box-shadow:8px 10px 12px #D6A52B;
   margin: 16px auto 24px;
   text-align: center;
-  border-radius: 20px;
-} 
+}
 
 .imagen img,
 .centrado img,
@@ -429,6 +367,8 @@ nav ul li a:focus {
   width: 250px;
   height: 250px;
   object-fit: cover;
+  box-shadow: 8px 10px 12px #D6A52B;
+  border-radius: 20px;
 }
 
 .imagen img,
