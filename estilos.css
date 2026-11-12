@@ -135,26 +135,47 @@ hr {
 
 .f1c1 {
     background-color: #F5EEDF;
+    
 }
 
 .f1c2 {
     background-color: #EDF0F5;
+      border: 1px solid #c9d3de;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  background: #F5C827;
 }
 
 .f2c1 {
     background-color: #EDF0F5;
+      border: 1px solid #c9d3de;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  background: #F5C827;
 }
 
 .f2c2 {
     background-color: #F5EEDF;
+      border: 1px solid #c9d3de;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  background: #F5C827;
 }
 
 .f3c1 {
     background-color: #F5EEDF;
+      border: 1px solid #c9d3de;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  background: #F5C827;
 }
 
 .f3c2 {
     background-color: #EDF0F5;
+      border: 1px solid #c9d3de;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  background: #F5C827;
 }
 
 .tarjetas h3 {
@@ -217,6 +238,7 @@ hr {
 }
 
 
+
 .acordeon {
   border: 1px solid #c9d3de;
   border-radius: 6px;
@@ -257,7 +279,7 @@ nav a[aria-current="page"] {
   text-decoration: underline;
 }
 
-/* Botón volver al menú */
+
 .volver {
   margin: 16px 0;
 }
