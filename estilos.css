@@ -382,7 +382,8 @@ nav ul li a:focus {
     background: #F5C827;
     color: #12355b;
     transform: translateY(-3px);
-.imagen {
+    
+  imagen {
   margin: 16px auto 24px;
   text-align: center;
 }
