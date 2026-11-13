@@ -344,11 +344,8 @@ hr.linea-azul {
 }
 
 ul{
-  list-style-type:  
+  list-style-type:none;
   border: 1px solid #c9d3de;
-  border-radius: 6px;
-  margin-bottom: 10px;
-  background: #F5C827;
 }
 
 nav ul {
@@ -358,6 +355,10 @@ nav ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  border: 1px solid #c9d3de;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  background: #F5C827;
  
 }
 
