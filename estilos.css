@@ -344,17 +344,25 @@ hr.linea-azul {
 }
 
 ul{
-  list-style-type: none;
+  list-style-type:  
+  border: 1px solid #c9d3de;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  background: #F5C827;;
 }
 
 nav ul {
   list-style: none;
+  border: 1px solid #c9d3de;
   margin: 24px auto;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 12px;
+   border-radius: 6px;
+  margin-bottom: 10px;
+  background: #F5C827;;
 }
 
 nav ul li a {
