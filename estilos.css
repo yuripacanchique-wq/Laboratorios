@@ -363,29 +363,25 @@ nav ul {
 }
 
 nav ul li a {
-  display: block;
-  padding: 14px 22px;
-  background: #12355b;
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 8px;
-  border-bottom: 4px solid #ffb703;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
-  transition: background 0.2s, color 0.2s, transform 0.2s;
-   border: 1px solid #c9d3de;
-  border-radius: 6px;
-  margin-bottom: 10px;
-  background: #F5C827;
+ display: block;
+    padding: 14px 22px;
+    background: #12355b;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    border-bottom: 4px solid #D6A52B;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.25);
+    transition: background 0.2s, color 0.2s, transform 0.2s;
  
 }
 
 nav ul li a:hover,
 nav ul li a:focus {
-  
-  background: #ffb703;
-  color: #12355b;
-  transform: translateY(-3px);
+ 
+    background: #F5C827;
+    color: #12355b;
+    transform: translateY(-3px);
 }
 
 
